@@ -114,16 +114,12 @@ nav ul li a:hover::after{
     position: relative;
 }
 
-.tab-links: :after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #ff004ƒ;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
+.projects{
+    padding: 10px 10%
 }
-.tab-links.active-link::after{
-    width: 50%;
+.projects nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
 }
